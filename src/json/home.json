@@ -1,15 +1,21 @@
 {
+    "iconPage":
+        {
+            "i1":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/heart.png",
+            "i2":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/Union.png",
+            "i3":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/Arrow.png",
+            "i4":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/Path.png"
+        },
+
     "HomePage":
         {
-            "HeaderLeftUrl":"https://github.com/yuumaker/image/blob/master/src/images/camera.png?raw=true",
-            "HeaderMid":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png",
-            "HeaderRightUrl":"https://github.com/yuumaker/image/blob/master/src/images/send.png?raw=true",
-            "b1":"https://cdn.clipart.email/2d598a01881ffe7cc6d63ddc9bf65e7e_instagram-home-icon-google-search_200-200.png",
-            "b2":"https://pngimage.net/wp-content/uploads/2019/05/logo-ig-transparan-png-.png",
-            "b3":"https://github.com/yuumaker/image/blob/master/src/images/like.png?raw=true",
-            "b4":"https://lh3.googleusercontent.com/u2i7e4PDKUf9gD6IUxhfVl5_cnFGZ8-gWlKCs8iATDQkaAU0tVxhS2thgUcfyFORAfwYidzXTNZyygUDatGBuBXSqfrjVw=s600"
+            "HeaderLeftUrl":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/camera.png",
+            "HeaderMid":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/ig.png",
+            "HeaderRightUrl":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/Arrow.png",
+            "b1":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/home.png",
+            "b2":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/search.png",
+            "b3":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/heart.png",
+            "b4":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/artist.png"
         }
-
-
-            
+        
 }

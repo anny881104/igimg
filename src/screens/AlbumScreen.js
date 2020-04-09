@@ -1,6 +1,5 @@
 import React from "react";
 import {  StyleSheet,View, FlatList, TouchableOpacity,Image } from "react-native";
-import Header from "../components/Header";
 import AlbumDetail from "../components/AlbumDetail";
 import albumData from "../json/albums.json";
 import homeData from "../json/home.json";
@@ -8,12 +7,13 @@ import homeData from "../json/home.json";
 const AlbumScreen = ({ navigation }) => {
   return (
     <View style={{flex:1,backgroundColor:"#fff"}}>
-      <View>
+      <View style={styles.headerStyle}>
         <Image source={{url: homeData.HomePage.HeaderLeftUrl}} style={styles.headerLeft}/>
         <Image source={{url: homeData.HomePage.HeaderMid}} style={styles.headermid}/>
         <TouchableOpacity
           onPress={() => navigation.push('DetailScreen')}>
-          <Image source={{url: homeData.HomePage.HeaderRightUrl}}style={styles.headerRight}/>
+          <Image source={{url: homeData.HomePage.HeaderRightUrl}}
+          style={styles.headerRight}/>
         </TouchableOpacity>
       </View>
       <FlatList
@@ -37,59 +37,54 @@ const AlbumScreen = ({ navigation }) => {
 };
 const styles = StyleSheet.create({
   headerLeft:{
-      marginTop:30,
-      marginLeft:15,
-      width: 28,
-      height: 28
+      width: 36,
+      height: 30
     },
     headermid:{
-      marginTop:30,
       width: 110,
       height: 35
     },
     headerRight:{
-      marginTop:30,
-      marginRight:15,
-      marginBottom:20,
-      width: 28,
+      width: 30,
       height: 28
     },
-    headerContentStyle:{
-      flexDirection:"row",
-      justifyContent:"flex-start",
-      justifyContent:"space-between",
-      width:null,
-      height:70,
-      backgroundColor:'#fafafa',
-      marginTop:30,
-      elevation:4
-  },
   b1:{
       width: 42,
       height: 42,
-      marginLeft:15
+     
     },
   b2:{
-      width: 32,
-      height: 32,
+      width: 27,
+      height: 28,
     },
     b3:{
-      width: 32,
-      height: 32,
+      width: 27,
+      height: 25,
     },
     b4:{
-      width: 32,
-      height: 32,
-      marginRight:15
+      width: 35,
+      height: 35,
     },
+  headerStyle:{
+    justifyContent:"center",
+    flexDirection:"row",
+    justifyContent:"space-between",
+    backgroundColor:'#fafafa',
+    marginLeft:12,
+    marginRight:12,
+    height:50,
+  },
+
   bottomStyle:{
     justifyContent:"center",
     alignItems:"center",
     flexDirection:"row",
-    justifyContent:"flex-start",
     justifyContent:"space-between",
-    height:65,
+    height:60,
     backgroundColor:'#fafafa',
+    marginLeft:15,
+    marginRight:15,
   }
+ 
 });
 export default AlbumScreen;
