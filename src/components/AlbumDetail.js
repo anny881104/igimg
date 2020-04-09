@@ -3,30 +3,34 @@ import { StyleSheet, Text, View, Image, TouchableOpacity, Linking} from "react-n
 
 const AlbumDetail = ({ album, navigation }) => {
    return (
-      <View style={styles.cardContainerStyle}>
-        <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+      <View style={styles.card}>
+        <View style={[styles.thumbnailContainerStyle, styles.titlecard]}>
           <Image
             style={styles.thumbnailStyle}
             source={{
               uri: album.thumbnail_image
             }}
           />
-          <View style={styles.headerContentStyle}>
+          <View style={styles.title}>
             <Text>{album.title}</Text>
-            <Text>{album.artist}</Text>
           </View>
         </View>
         <View style={styles.cardSectionStyle}>
-          <TouchableOpacity 
-            onPress={() => navigation.navigate('Detail', album)}
-          >
             <Image
               style={styles.imageStyle}
               source={{
                 uri: album.image
               }}
             />
-          </TouchableOpacity>
+        </View>
+
+        <View style={styles.textcard}>
+          <Text>{album.like}</Text>
+          <View style={styles.saycard}>
+            <Text style={styles.article} >{album.title}</Text>
+            <Text >{album.say}</Text>
+          </View>
+          <Text style={styles.comments}>{album.comments}</Text>
         </View>   
       </View>
   )};
@@ -41,32 +45,34 @@ const styles = StyleSheet.create({
     width: 50,
     margin: 5
   },
-  headerContentStyle: {
+  title: {
     flexDirection: "column",
     justifyContent: "space-around",
-    paddingLeft: 10
+    paddingLeft: 10,
   },
-  cardContainerStyle: {
-    borderWidth: 1,
-    borderRadius: 2,
-    borderColor: "#ddd",
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 1,
-    marginLeft: 5,
-    marginRight: 5,
-    marginTop: 10
-  },
-  cardSectionStyle: {
-    padding: 5,
+  titlecard: {
+    paddingLeft:10,
     backgroundColor: "#fff",
-    borderColor: "#ddd",
-    borderBottomWidth: 1
+    height:55,
+  },
+  textcard:{
+    justifyContent: "center",
+    height:120,
+    marginLeft:10,
+  },
+  saycard:{
+    flexDirection: "row",
+    marginTop:10,
+    marginBottom:10,
+  },
+  article:{
+    paddingRight:5,
+  },
+  comments:{
+    color: "#A5A5A5",
   },
   imageStyle: {
-    height: 300,
+    height: 414,
     width: null
   }
 });
