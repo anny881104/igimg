@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   },
   titlecard: {
     paddingLeft:10,
+    marginBottom:10,
     backgroundColor: "#fff",
     height:55,
   },
