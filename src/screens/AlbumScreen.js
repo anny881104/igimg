@@ -38,7 +38,8 @@ const AlbumScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   headerLeft:{
       width: 36,
-      height: 30
+      height: 30,
+      marginLeft:12
     },
     headermid:{
       width: 110,
@@ -46,7 +47,8 @@ const styles = StyleSheet.create({
     },
     headerRight:{
       width: 30,
-      height: 28
+      height: 28,
+      marginRight:12
     },
   b1:{
       width: 23,
@@ -70,8 +72,6 @@ const styles = StyleSheet.create({
     flexDirection:"row",
     justifyContent:"space-between",
     backgroundColor:'#fafafa',
-    marginLeft:12,
-    marginRight:12,
     height:50,
   },
 
