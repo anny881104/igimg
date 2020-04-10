@@ -12,7 +12,6 @@ const DetailScreen = ({navigation}) => {
                        <Image source={{uri: homeData.HomePage.HeaderLeftUrl}}
                                style={styles.headerLeft}/>
                    </TouchableOpacity>
-                  
                </View>
               
                
@@ -32,16 +31,16 @@ const DetailScreen = ({navigation}) => {
         height: 40
       },
       headerContentStyle:{
-       justifyContent:"center",
-       alignItems:"center",
-       flexDirection:"row",
-       justifyContent:"flex-start",
-       justifyContent:"space-between",
-        width:null,
-        height:70,
-        backgroundColor:'#fafafa',
-        marginTop:25,
-        elevation:4
+      justifyContent:"center",
+      alignItems:"center",
+      flexDirection:"row",
+      justifyContent:"flex-start",
+      justifyContent:"space-between",
+      width:null,
+      height:70,
+      backgroundColor:'#fafafa',
+      marginTop:25,
+      elevation:4
     },
    
 });
