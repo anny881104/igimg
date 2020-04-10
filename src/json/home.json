@@ -15,7 +15,49 @@
             "b1":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/home.png",
             "b2":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/search.png",
             "b3":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/heart.png",
-            "b4":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/artist.png"
-        }
-        
+            "b4":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p3.png"
+        },
+    "DetailPage":
+    {
+            "HeaderLeftUrl":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/back.png",
+            "HeaderRightUrl":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/dot.png"    
+    },
+
+    "peopleList1":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p1.png",
+        "name":"Snoopy",
+        "chat":"h..umhum?"
+    },
+    "peopleList2":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p2.png",
+        "name":"Woodstock",
+        "chat":"..."
+    },
+    "peopleList3":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p7.png",
+        "name":"Schroeder",
+        "chat":"HAHAHAHA"
+    },
+    "peopleList4":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p4.png",
+        "name":"Linusvan_Pelt",
+        "chat":"Charlie.I'm hungry now.. "
+    },
+    "peopleList5":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p5.png",
+        "name":"Sally_Brown",
+        "chat":"Charlie!u have to see this!"
+    },
+    "peopleList6":
+    {
+        "peo":"https://raw.githubusercontent.com/anny881104/igimg/master/imgs/p6.png",
+        "name":"Lucy_van_Pelt",
+        "chat":"D'ya know something else?"
+    }
+    
 }

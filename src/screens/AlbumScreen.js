@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
       height: 28
     },
   b1:{
-      width: 42,
-      height: 42,
+      width: 23,
+      height: 24,
      
     },
   b2:{
@@ -82,8 +82,8 @@ const styles = StyleSheet.create({
     justifyContent:"space-between",
     height:60,
     backgroundColor:'#fafafa',
-    marginLeft:15,
-    marginRight:15,
+    marginLeft:25,
+    marginRight:25,
   }
  
 });
