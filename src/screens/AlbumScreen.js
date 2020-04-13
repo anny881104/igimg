@@ -69,10 +69,11 @@ const styles = StyleSheet.create({
     },
   headerStyle:{
     justifyContent:"center",
+    alignItems:"center",
     flexDirection:"row",
     justifyContent:"space-between",
     backgroundColor:'#fafafa',
-    height:50,
+    height:70,
   },
 
   bottomStyle:{
