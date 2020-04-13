@@ -72,7 +72,7 @@ const DetailScreen = ({navigation}) => {
       </View>
 
       </View>
-  ` </ScrollView>      
+   </ScrollView>      
    </View>
        );
    };
